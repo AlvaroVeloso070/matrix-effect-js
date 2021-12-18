@@ -1,8 +1,8 @@
 const canvas = document.getElementById('Matrix');
 const contexto = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.screen.width;
+canvas.height = window.screen.height;
 
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
